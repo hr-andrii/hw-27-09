@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <style>
+        .div1
+         {
+            height: 350px;
+         }
+        div
+        {
+            height: 900px;
+        }
+        .main
+        {
+            border-style: double;
+            height: 350px;
+            width: 500px;
+        }
+    </style>
+        <meta charset="utf-8">
+        <title>hw-27-09</title>
+    </head>
+    <body>
+        <h1>To continue the registration process please <a href="https://www.facebook.com/groups/684997092020734/">read</a> and agree to our policies</h1>
+        <hr>
+        <a href="#1"><button> I Agree </button></a>
+        <hr>
+        <a href="index.html"><button> Go to index.html </button></a>
+        <div></div>
+        <div class="main">
+        <hr>
+        <h2>Registration form</h2>
+        <hr>
+
+        <form action="https://formspree.io/hr.andriygtr@gmail.com" method="POST">
+            <label>Enter your Nickname
+                 <input type="text" placeholder="Pls create your Nickname" name="Nickname" required>
+            </label>
+            <hr>
+            <label>Enter your Full name:
+                 <input type="text" placeholder="Pls enter your Full name" name="Full_name" required>
+            </label>
+            <hr>
+            <label>Enter your Age:
+                 <input type="number" placeholder="Pls enter your Age" name="Age" required>
+            </label>
+            <hr>
+            <label>Enter your Gender:</label>
+                <label>
+                    <input type="radio" name="gender" value = "Male"> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value = "Female"> Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value = "Other"> Other
+                </label>
+                <hr>
+            <label>Enter your E-mail:
+                 <input type="email" placeholder="Pls enter your E-mail" name="E-mail" required>
+            </label>
+            <hr>
+            <label>Enter your Password:
+                 <input type="password" placeholder="Pls create your Password" name="Password" required>
+            </label>
+            <hr>
+            <button>Confirm</button>
+        </form>
+        </div>
+        <div class="div1"><p id="1"></p></div>
+    </body>
+</html>
